@@ -19,7 +19,7 @@
 @include-when-export url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --text-color: rgba(255, 255, 255, 0.75);
+    --text-color: #ddd;
     --bg-color: rgb(26, 26, 26);
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
