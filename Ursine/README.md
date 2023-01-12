@@ -7,6 +7,7 @@
 1. 将 `max-width` 的值修改为 `860px`
 2. 将滚动条的背景色设置为白色
 3. 优化无序列表和有序列表的嵌套显示效果
+4. 修改 H1 - H6 标的尺寸
 
 ## 使用方法
 
@@ -19,4 +20,3 @@
 
 - [Ursine](https://theme.typora.io/theme/Ursine/)
 - [typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine)
-

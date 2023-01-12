@@ -368,7 +368,7 @@ th {
 }
 
 #write h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 1rem 0;
 }
 
@@ -378,7 +378,7 @@ th {
 }
 
 #write h2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: .7rem 0;
 }
 
@@ -388,7 +388,7 @@ th {
 }
 
 #write h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: .5rem 0;
 }
 
@@ -398,7 +398,7 @@ th {
 }
 
 #write h4 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: .2rem 0;
 }
 
