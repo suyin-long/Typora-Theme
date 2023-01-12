@@ -1337,6 +1337,7 @@ footer.ty-footer {
   }
 }
 
+/* 自定义滚动条背景色 */
 ::-webkit-scrollbar-thumb {
   background-color: white;
 }
