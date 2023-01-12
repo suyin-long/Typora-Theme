@@ -282,7 +282,11 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 #write code,
 tt {
     margin: 0 2px;
-    color: var(--drake-highlight);
+    /* color: var(--drake-highlight); */
+    color: #ffc107;
+    background-color: #333;
+    padding: .15em 0.5em;
+    border-radius: 4px;
 }
 
 /*variable*/
@@ -422,6 +426,8 @@ h4,
 h5,
 h6 {
     width: auto;
+    font-family: var(--title-font);
+    color: var(--title-color);
 }
 
 #write h1::before,
@@ -435,63 +441,65 @@ h6 {
     right: calc(100% + .75em);
     top: 0;
     color: #5b5b5b;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: bold;
     font-variant: 'small-caps';
 }
 
-#write h1 {
-    font-size: 1.8rem;
+h1 {
+    font-size: 2rem;
     margin: 1rem 0;
 }
 
 #write h1::before {
     content: 'H1';
-    top: .87rem;
+    top: 1em;
 }
 
-#write h2 {
-    font-size: 1.4rem;
+h2 {
+    font-size: 1.8rem;
     margin: .7rem 0;
 }
 
 #write h2::before {
     content: 'H2';
-    top: .43rem;
+    top: .9em;
 }
 
-#write h3 {
-    font-size: 1.2rem;
+h3 {
+    font-size: 1.4rem;
     margin: .5rem 0;
 }
 
 #write h3::before {
     content: 'H3';
-    top: .2rem;
+    top: .7em;
 }
 
-#write h4 {
-    font-size: 1.1rem;
+h4 {
+    font-size: 1.2rem;
     margin: .2rem 0;
 }
 
 #write h4::before {
     content: 'H4';
-    top: .07rem;
+    top: .6em;
 }
 
-#write h5,
-#write h6 {
+h5,
+h6 {
     font-size: 1rem;
     margin: 0;
 }
 
 #write h5::before {
     content: 'H5';
+    top: .5em;
 }
 
 #write h6::before {
     content: 'H6';
+    top: .5em;
 }
 
 #write>h1.md-focus::before,
