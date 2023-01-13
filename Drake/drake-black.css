@@ -1387,7 +1387,7 @@ a.ty-link {
     list-style-type: square;
 }
 
-/* 自义定有序列表 */
+/* 自定义有序列表 */
 #write ol {
     list-style-type: decimal;
 }
@@ -1405,6 +1405,7 @@ a.ty-link {
     background-color: #ff9800;
 }
 
+/* 自定义滚动条点击后的背景色 */
 ::-webkit-scrollbar-thumb:active {
     background-color: #ff9800;
 }

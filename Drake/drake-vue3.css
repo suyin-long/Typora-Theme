@@ -1395,6 +1395,7 @@ a.ty-link {
     background-color: #42B883;
 }
 
+/* 自定义滚动条点击后的背景色 */
 ::-webkit-scrollbar-thumb:active {
     background-color: #42B883;
 }
