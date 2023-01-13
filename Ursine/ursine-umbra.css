@@ -469,6 +469,10 @@ th {
   list-style-type: square;
 }
 
+#write ul ul ul ul {
+  list-style-type: "* ";
+}
+
 /* 自定义有序列表 */
 #write ol {
   list-style-type: decimal;
@@ -480,6 +484,10 @@ th {
 
 #write ol ol ol {
   list-style-type: lower-roman;
+}
+
+#write ol ol ol ol {
+  list-style-type: lower-greek;
 }
 
 #write .md-task-list-item>input {
